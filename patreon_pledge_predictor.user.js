@@ -2,8 +2,7 @@
 // @name Patreon Pledge Predictor
 // @description Calculates the new patreon pledge amount
 // @author compujosh
-// @version 1
-// @date 12-7-17
+// @version 1.01
 // @namespace compujosh
 // @match https://www.patreon.com/bePatron?c=*&rid=*
 // @match https://www.patreon.com/join/*
@@ -34,6 +33,7 @@ function updatePrediction() {
             return;
         }
 
+        // Put est container back in after changing reward tier
         if ($('#realPledgeAmnt').length === 0) $('.react-numeric-input').parent().parent().parent().parent().parent().after('<div id="realPledgeAmnt" style="color:gray;font-size:95%;"></div>');
 
         var pledgeAmnt = parseFloat($('span.mr-sm span')[0].innerHTML.split("+")[0].replace("$",""));
