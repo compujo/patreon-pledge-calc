@@ -1,9 +1,8 @@
 // ==UserScript==
 // @name Patreon Pledge Predictor
 // @description Calculates the new patreon pledge amount
-// @homepageURL
 // @author compujosh
-// @version 0.1
+// @version 1
 // @date 12-7-17
 // @namespace compujosh
 // @match https://www.patreon.com/bePatron?c=*&rid=*
