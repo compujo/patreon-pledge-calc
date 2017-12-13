@@ -1,3 +1,8 @@
+# Deprecation notice
+Patreon has changed their minds and decided not to roll out the planned changes for now. More details here: https://blog.patreon.com/not-rolling-out-fees-change/
+
+Should there be further changes to the payment scheme I may update this userscript, but for now it should be disabled.
+
 # Patreon Pledge Predictor
 Calculates the new patreon pledge amount
 
